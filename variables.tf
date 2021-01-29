@@ -1,12 +1,12 @@
 variable "arguments" {
   default = []
-  type    = "list"
+  type    = list
   description = "Arguments"
 }
 
 variable "envs" {
   default = []
-  type    = "list"
+  type    = list
   description = "Environment variables"
 }
 
